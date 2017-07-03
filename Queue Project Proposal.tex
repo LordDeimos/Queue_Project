@@ -10,14 +10,43 @@
 	\date{June 2017}
 	\maketitle
 	
-	\textbf{THIS IS MAINLY GETTING MY IDEAS ONTO PAPER, IF YOU THINK SOMETHIGN COULD BE FIXED UP PLEASE FEEL FREE TO CHANGE IT}
+	\textbf{THIS IS MAINLY GETTING MY IDEAS ONTO PAPER, IF YOU THINK SOMETHING COULD BE FIXED UP PLEASE FEEL FREE TO CHANGE IT}
+\newline
+\newline
+I made a lot of assumptions about the scope of the project in doing this section so keep that in mind.
+	\section{Context}
+STIMulate is a service run by QUT to provide assistance to students in the three streams of Maths, Science, and IT. They do this with the help of volunteer Peer Learning Facilitators (PLFs), who are experienced students who have done well in their course in the areas that STIMulate helps with. These students are then organised by Duty Hosts, who take more of an administrative role and make sure that everything is going smoothly. The main benefit of STIMulate to students is that it provides another avenue of help for them other than their lecturers or tutors.  
+	\section{Purpose}
+We are proposing that a Queue System is implemented to keep track of students looking for support in STIMulate's IT stream, to improve the efficiency that we provide support to students, and also to better utilise our PLFs/Duty Hosts. This queuing system will allow Duty Hosts to record which students are looking for support in the areas provided by the IT stream (though this may be expanded to allow the Maths and Science streams to access the system).  Individual PLFs can then see who is waiting for their stream through the STIMulate website. 
+\newline
+\newline
+Queues are already in use in many industries, including retail, and the government. We have also decided that for this queue system, the FIFO (First in, First Out) model would be the most appropriate as it’s the fairest to the students. 
+\newline
+\newline
+Our team developing this project is part of the target audience, so we will be able to get accurate data from our peers and can directly test the effectiveness while the product is still in development.
+	\section{Benefits}
+	\subsection{FIFO System/Information Storage}
+Students who come to STIMulate may not always feel comfortable asking for help, and in the current system, they may be skipped over because they didn't speak up. This can often be frustrating for the student and it also means that they waited longer than they really had to, and the PLFs/Duty Hosts might be busy so they might not realise this. 
 	\newline
 	\newline
-	For the purposes of improving the effectiveness an efficiency of providing support to students form STIMulate's IT stream, we have proposed that a system be implemented to keep track of students looking for support. This queuing system will allow Duty Hosts to record which students are looking for support in the areas provided by the IT stream (though this may be expanded to allow the Maths and Science streams to access the system) and individual PLF's will then be able to get a better sense of what people need their help than deciphering a crowded table.
+With the FIFO queue system, this will not happen, as students who are there first will be served first, and all PLFs and Duty Hosts will also be able to see at a glance exactly who is waiting, what they need help with, and how long they have been waiting for, without having to guess this from a crowded table. This will make it much easier for them to prioritise, especially near exam period where they are lots of students. 
 	\newline
 	\newline
-	The team developing this project, being part of the target audience, will be able to get accurate data from our peers and can directly test the effectiveness while the product is in development.
+This can also be very beneficial when PLFs switch shifts as the PLFs who are coming in can get up to speed and be able to take over quickly without an extended briefing. 
 	\newline
 	\newline
-	Ideally this would be developed as an addition to the existing STIMulate website, and while possible according the Connor McLaughlin, there has been no word as of yet as to whether people not contracted by QUT will be able to access the sever it is housed on.
+The student will also know this and they will feel more comfortable, even if someone cannot help them right at that moment. This is especially important if it is their first time coming to STIMulate, as at this point they are more likely to be sceptical of STIMulate and leave prematurely. Also since their details are already in the system, they also don’t have to repeatedly explain themselves to PLFs who may not be able to help, which may be annoying for them. 
+	\subsection{Data Analysis}
+However, we argue that the main benefit of the queue system will be because the data can be analysed. Currently, sometimes students may be turned away from STIMulate when there is not a PLF with the right skills to help them. These students' data is not recorded in any logs, as this only happens after a PLF helps someone.  However, this experience might make them less likely to come back to STIMulate in the future, as they might feel that it would be a poor use of their time. 
+	\newline
+	\newline
+With the queue system, the goal is to get the student's details as soon as they arrive, so even if they leave or are unable to get help, their details will still be in the system. Over time the times this happens could be tracked and there could be measures put in place to reduce this, such as changing the scheduling of PLFs.
+	\newline
+	\newline
+The average waiting times can also be looked at, as it is important for STIMulate to provide a timely response to students’ queries as this can affect their satisfaction and the degree to which they feel that their time is valued.  This can also be bad for the PLFs as during that time, they are likely to be stressed out while trying to help everyone. Conversely, if the queue times are very short, it might be indicative of the fact that PLFs aren’t being utilised properly. 
+	\newline
+	\newline
+Furthermore an estimated waiting time could be given to the student, which can help them make a more informed decision about whether they want to stay or not. 
+\section{Implementation}
+As stated above, the plan is that students who are queued can be seen by PLFs through the existing STIMulate website. While this would be possible according to QUT employee Connor McLaughlin, there has been no word yet as to whether people not contracted by QUT will be able to access the server it is housed on and implement a new system. 
 \end{document}
